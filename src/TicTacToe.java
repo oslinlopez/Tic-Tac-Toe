@@ -9,7 +9,6 @@ public class TicTacToe {
 	static ArrayList<Integer> playerPositions = new ArrayList<Integer>();
 	static ArrayList<Integer> computerPositions = new ArrayList<Integer>();
 	
-
 	public static void main(String[] args) {
 		
 		// Make the game board
@@ -54,7 +53,6 @@ public class TicTacToe {
 			}
 			
 			printGameBoard(gameBoard);
-			
 
 		}
 
@@ -148,9 +146,8 @@ public class TicTacToe {
 				return "DRAW!";
 			}
 		}
-		
+
 		return ""; // Nothing happened so the string length will be 0
 	}
-
 
 }
